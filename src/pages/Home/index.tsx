@@ -1,9 +1,11 @@
 import React from 'react';
-import { Container, Text } from './styles';
+import { Container } from './styles';
+
+import Header from '../../components/Header';
 
 const Home: React.FC = () => (
   <Container>
-    <Text>Home Page</Text>
+    <Header />
   </Container>
 );
 
